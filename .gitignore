@@ -4,5 +4,3 @@ dados/
 #ignorar parquet
 *.parquet
 
-# ignorar el mismo ignore
-.gitignore
