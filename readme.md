@@ -1,4 +1,4 @@
-## Projeto de Geração e Análise de Dados Sintéticos no contexto de Pricing
+## Projeto de Geração e Análise de Dados Sintéticos No Contexto de Pricing
 
 Este repositório contém scripts em Python para gerar e analisar dados sintéticos a partir de dados reais. O objetivo é comparar as distribuições dos dados sintéticos com as dos dados reais utilizando modelos de aprendizado de máquina. Ainda em desenvolvimento..
 
