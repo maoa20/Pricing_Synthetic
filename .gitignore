@@ -1,7 +1,8 @@
 # Ignorar la carpeta 'dados'
 dados/
 
-# Ignorar todos los archivos .parquet
+#ignorar parquet
 *.parquet
 
-# Puedes agregar otras reglas según sea necesario
+# ignorar el mismo ignore
+.gitignore
