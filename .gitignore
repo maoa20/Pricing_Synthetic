@@ -1,0 +1,7 @@
+# Ignorar la carpeta 'dados'
+dados/
+
+# Ignorar todos los archivos .parquet
+*.parquet
+
+# Puedes agregar otras reglas según sea necesario
