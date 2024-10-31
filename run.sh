@@ -11,4 +11,4 @@ module load Python3.8
 
 source $HOME/sin_env/bin/activate
 
-python -u $HOME/AML_project/main.py > log_CTGAN.txt
+python -u $HOME/Pricing_Synthetic/train_CTGAN.py > log_CTGAN.txt
