@@ -18,6 +18,6 @@ column_types = {
     }
 
 
-cleaned_data_path = "/Pricing_Synthetic/dados/df_cleaned.parquet"
+cleaned_data_path = "/Pricing_Synthetic/dados/train_data.parquet"
 
 epochs = 50
