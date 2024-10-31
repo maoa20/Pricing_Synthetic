@@ -11,7 +11,7 @@ def main():
     trainer.visualize_metadata() 
 
     trainer.train_synthesizer(
-        epochs=1,
+        epochs=8000,
         cuda=True,
         enforce_rounding=True,
         verbose=True
