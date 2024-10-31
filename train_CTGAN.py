@@ -21,4 +21,6 @@ def main():
     trainer.save_synthesizer(model_path)
     print(f"Modelo CTGAN treinado salvo em: {model_path}")
 
+if __name__ == "__main__":
+    main()
 
