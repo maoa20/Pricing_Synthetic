@@ -18,6 +18,6 @@ column_types = {
     }
 
 
-cleaned_data_path = "/GANS_Synthetic/dados/df_cleaned.parquet"
+cleaned_data_path = "/Pricing_Synthetic/dados/df_cleaned.parquet"
 
 epochs = 50
