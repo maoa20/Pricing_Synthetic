@@ -30,7 +30,7 @@ class PricingCTGAN:
             for column_name, sdtype in column_types.items():
                 self.metadata.update_column(column_name=column_name, sdtype=sdtype)
         
-    def train_synthesizer(self, epochs=6000, batch_size=64, cuda=True, enforce_rounding=False, verbose=True):
+    def train_synthesizer(self, epochs=6000, cuda=True, enforce_rounding=False, verbose=True):
         """
         Treinar o modelo CTGAN com parâmetros ajustáveis.
 
@@ -45,7 +45,6 @@ class PricingCTGAN:
             metadata=self.metadata,
             enforce_rounding=enforce_rounding,
             epochs=epochs,
-            batch_size=batch_size,
             cuda=cuda,
             verbose=verbose
         )
