@@ -7,7 +7,7 @@
 #SBATCH -o job.log
 #SBATCH --error=job_error_CTGAN.txt
 
-module load Python3.8
+module load Python/3.8
 
 source $HOME/sin_env/bin/activate
 
