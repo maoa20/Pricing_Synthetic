@@ -9,6 +9,6 @@
 
 module load Python3.9
 
-source $HOME/sin_env/bin/activate
+source $HOME/env_syn/bin/activate
 
 python -u $HOME/Pricing_Synthetic/train_CTGAN.py > log_CTGAN.txt
