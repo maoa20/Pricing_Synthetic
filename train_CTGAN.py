@@ -17,7 +17,7 @@ def main():
         verbose=True
     )
 
-    model_path = f"{DIR_HOME}'/Pricing_Synthetic/models/ctgan_synthesizer.pkl"
+    model_path = f"{DIR_HOME}/Pricing_Synthetic/models/ctgan_synthesizer.pkl"
     trainer.save_synthesizer(model_path)
     print(f"Modelo CTGAN treinado salvo em: {model_path}")
 
