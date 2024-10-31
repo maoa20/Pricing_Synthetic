@@ -11,13 +11,13 @@ def main():
     trainer.visualize_metadata() 
 
     trainer.train_synthesizer(
-        epochs=8000,
+        epochs=1,
         cuda=True,
         enforce_rounding=True,
         verbose=True
     )
 
-    model_path = f"{DIR_HOME}'/models/ctgan_synthesizer.pkl"
+    model_path = f"{DIR_HOME}'/Pricing_Synthetic/models/ctgan_synthesizer.pkl"
     trainer.save_synthesizer(model_path)
     print(f"Modelo CTGAN treinado salvo em: {model_path}")
 
